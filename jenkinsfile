@@ -1,4 +1,3 @@
-[3:25 PM] Sandeep (Guest)
 pipeline
 
 {
@@ -29,9 +28,9 @@ pipeline
 
             steps
 
-            {
+            
 
-                withSonarQubeEnv('SonarQube')
+                
 
                 {
 
@@ -39,7 +38,7 @@ pipeline
 
                 }
 
-            }
+            
             
 
         }
